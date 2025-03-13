@@ -1,0 +1,294 @@
+
+/* Responsividade Contato */
+
+@media (max-width: 1200px) {
+    .container_formulario_imagem {
+        width: 80vw;
+    }
+
+    footer .seccao_logos {
+        width: 22vw;
+    }
+}
+
+@media (max-width: 1044px) {
+    .imagem img {
+        width: 25vw;
+    }
+
+    footer .direitos_autorais {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 880px) {
+    header .logo {
+        width: 15vw;
+    }
+
+    header nav {
+        width: 30vw;
+    }
+
+    .imagem img {
+        width: 20vw;
+    }
+
+    footer .seccao_logos p {
+        font-size: 12px;
+    }
+
+    footer .seccao_logos {
+        width: 20vw;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 4vh;
+    }
+
+    footer .logo_ford img {
+        width: 6vw;
+        height: 4vh;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 9vh;
+        padding: 0 10px;
+    }
+
+    header .logo {
+        width: 15vw;
+    }
+
+    header nav {
+        width: 35vw;
+    }
+
+    header nav ul li {
+        font-size: 14px;
+    }
+
+    header nav a:hover {
+        font-size: 17px;
+    }
+
+    .container_formulario_imagem {
+        flex-direction: column;
+        width: 80vw;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .formulario_contato {
+        width: 100%;
+    }
+
+    .imagem img {
+        width: 30vw;
+    }
+
+    footer {
+        height: 8vh;
+    }
+
+    footer .seccao_logos p {
+        font-size: 10px;
+    }
+
+    footer .seccao_logos {
+        width: 22vw;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 4vh;
+    }
+
+    footer .direitos_autorais {
+        font-size: 11px;
+    }
+
+    footer .logo_ford img {
+        width: 8vw;
+    }
+}
+
+@media (max-width: 600px) {
+    footer .seccao_logos {
+        width: 22vw;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 3vh;
+    }
+
+    footer .logo_ford img {
+        width: 6vw;
+        height: 3vh;
+    }
+}
+
+@media (max-width: 550px) {
+    header nav {
+        width: 45vw;
+    }
+
+    header nav a:hover {
+        font-size: 16px;
+    }
+
+    .formulario_contato h2 {
+        font-size: 18px;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 3vh;
+    }
+
+    footer .seccao_logos p {
+        font-size: 8px;
+    }
+
+    footer .direitos_autorais {
+        font-size: 10px;
+    }
+
+    footer .logo_ford img {
+        width: 7vw;
+        height: 3vh;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 8vh;
+        padding: 0 5px;
+    }
+
+    header .logo {
+        width: 20vw;
+    }
+
+    header nav {
+        width: 45vw;
+    }
+
+    header nav ul li {
+        font-size: 12px;
+    }
+
+    header nav a:hover {
+        font-size: 15px;
+    }
+
+    .container_formulario_imagem {
+        width: 90vw;
+        gap: 10px;
+        padding: 8px;
+    }
+
+    .formulario_contato {
+        width: 100%;
+    }
+
+    .imagem img {
+        width: 30vw;
+    }
+
+    footer {
+        height: 6vh;
+    }
+
+    footer .seccao_logos {
+        width: 25vw;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 2vh;
+    }
+
+    footer .direitos_autorais {
+        font-size: 7px;
+    }
+
+    footer .logo_ford img {
+        width: 6vw;
+        height: 2vh;
+    }
+}
+
+@media (max-width: 415px) {
+    header .logo {
+        width: 15vw;
+        height: 4vh;
+    }
+
+    header nav {
+        width: 55vw;
+    }
+
+    header nav a:hover {
+        font-size: 14px;
+    }
+
+    footer .seccao_logos p {
+        font-size: 7px;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 2vh;
+    }
+
+    footer .direitos_autorais {
+        font-size: 7px;
+    }
+
+    footer .logo_ford img {
+        width: 7vw;
+        height: 2vh;
+    }
+}
+
+@media (max-width: 350px) {
+    header nav {
+        width: 55vw;
+        height: 6vh;
+    }
+
+    header nav ul {
+        gap: 2px;
+    }
+
+    header nav a {
+        font-size: 10px;
+    }
+
+    header nav a:hover {
+        font-size: 10px;
+    }
+
+    footer .seccao_logos p {
+        font-size: 6px;
+    }
+
+    footer .seccao_logos img {
+        width: 3vw;
+        height: 2vh;
+    }
+
+    footer .direitos_autorais {
+        font-size: 6px;
+    }
+
+    footer .logo_ford img {
+        width: 7vw;
+        height: 2vh;
+    }
+}

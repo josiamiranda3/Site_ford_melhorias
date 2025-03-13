@@ -1,0 +1,331 @@
+
+
+    /* Responsividade Home */
+
+
+        @media (max-width: 1640px) {
+            main .imagem_central {
+                width: 80%; /* A imagem ocupa 100% da largura */
+            }
+
+            footer .seccao_logos{
+               width: 20vw;
+               gap: 1.5px;
+
+            }
+        }
+        
+
+       
+
+        @media (max-width: 1098px) {
+            header {
+                height: 10vh; /* Reduz a altura do header */
+                padding: 0 10px; /* Reduz o padding lateral */
+            }
+        
+        
+            header nav ul li {
+                font-size: 14px; /* Reduz o tamanho da fonte */
+            }
+
+            header nav a:hover {
+                font-size: 18px; /* Reduz um pouco */
+            }
+        
+            main {
+                height: 80vh; /* Ajusta a altura do main */
+            }
+       
+            main .imagem_central {
+                width: 80%; /* A imagem ocupa 100% da largura */
+                /* antes width: 100vw; */
+            }
+
+            footer .seccao_logos{
+                width: 25vw;
+                gap: 1.5px;
+ 
+             }
+
+             footer .seccao_logos img{
+
+                width: 3vw; 
+                height: 4vh; 
+
+             }
+
+             footer .direitos_autorais{
+                font-size: 12px;
+             }
+             /* nova propriedade adicionada */
+
+             footer .logo_ford img {
+                width: 6vw; /* Aumenta o tamanho da logo da Ford */
+                height: 5vh;
+            }
+
+        
+
+        }
+
+
+
+    /* responsividade teste */
+
+    @media (max-width: 768px) {
+        header {
+            height: 10vh; /* Reduz a altura do header */
+            padding: 0 10px; /* Reduz o padding lateral */
+        }
+    
+        header .logo {
+            width: 10vw; /* Aumenta a largura da logo */
+        }
+    
+        header nav {
+            width: 30vw; /* Aumenta a largura do nav */
+        }
+    
+        header nav ul li {
+            font-size: 14px; /* Reduz o tamanho da fonte */
+        }
+
+        header nav a:hover {
+            font-size: 17px; /* Reduz um pouco */
+        }
+    
+        main {
+            height: 80vh; /* Ajusta a altura do main */
+        }
+    
+        main .imagem_central {
+            width: 80%; /* A imagem ocupa 100% da largura */
+            /* antes width: 100%; */
+        }
+    
+        main p {
+            width: 50vw; /* Aumenta a largura do parágrafo */
+        }
+    
+        footer .seccao_logos p {
+            font-size: 10px;
+    
+         }
+
+        footer .seccao_logos{
+            width: 25vw;
+            gap: 1.5px;
+
+         }
+    
+        footer .seccao_logos img {
+            width: 3vw; /* Aumenta o tamanho dos ícones */
+        }
+
+        footer .direitos_autorais{
+            font-size: 11px;
+         }
+         /* nova propriedade adicionada */
+    
+         footer .logo_ford img {
+            width: 6vw; /* Aumenta o tamanho da logo da Ford */
+            height: 4vh;
+        }
+
+    }
+
+
+            /* responsividade teste */
+
+    @media (max-width: 745px) {
+        header {
+            height: 10vh; /* Reduz a altura do header */
+            padding: 0 10px; /* Reduz o padding lateral */
+        }
+    
+        header .logo {
+            width: 10vw; /* Aumenta a largura da logo */
+        }
+    
+        header nav {
+            width: 40vw; /* Aumenta a largura do nav */
+        }
+    
+        footer .logo_ford img {
+            width: 6vw; /* Aumenta o tamanho da logo da Ford */
+            height: 4vh;
+        }
+
+    }
+
+
+        @media (max-width: 650px) {
+            
+        
+            header .logo {
+                width: 10vw; /* Aumenta a largura da logo */
+                height: 4vh;
+            }
+
+            header nav a:hover {
+                font-size: 15px; /* Reduz um pouco */
+            }
+
+            footer .seccao_logos{
+                width: 25vw;
+                gap: 1.5px;
+    
+             }
+
+             footer .direitos_autorais{
+                font-size: 10px;
+             }
+             /* nova propriedade adicionada */
+        
+        
+             footer .logo_ford img {
+                width: 6vw; /* Aumenta o tamanho da logo da Ford */
+                height: 3vh;
+            }
+        }
+
+        @media (max-width: 550px) {
+
+            footer .seccao_logos img {
+                width: 3vw;
+                height: 3vh;
+            }
+        
+            footer .seccao_logos p {
+                font-size: 8px;
+            }
+        
+            footer .direitos_autorais {
+                font-size: 10px;
+            }
+        
+            footer .logo_ford img {
+                width: 7vw;
+                height: 3vh;
+            }
+
+
+
+        }
+
+
+    
+        /* Ajustes adicionais para smartphones (max-width: 480px) */
+        @media (max-width: 480px) {
+            header {
+                height: 8vh; /* Reduz ainda mais a altura do header */
+                padding: 0 5px; /* Reduz o padding lateral */
+            }
+    
+            header .logo {
+                width: 15vw; /* Aumenta a largura da logo */
+            }
+    
+            header nav {
+                width: 50vw; /* Aumenta a largura do nav */
+            }
+
+            header nav a{
+                font-size: 12px; /* Aumenta a largura do nav */
+            }
+
+            /* footer{
+                height: 6vh;
+                position: sticky;
+
+            } */
+
+             footer {
+                height: 6vh;
+            }
+
+        
+            footer .seccao_logos {
+                width: 25vw;
+            }
+
+            footer .seccao_logos p {
+                font-size: 8px;
+        
+             }
+        
+            footer .seccao_logos img {
+                width: 3vw;
+                height: 2vh;
+            }
+        
+            footer .direitos_autorais {
+                font-size: 7px;
+            }
+        
+            footer .logo_ford img {
+                width: 6vw;
+                height: 2vh;
+            }
+
+            
+        }
+
+        @media (max-width: 370px) {
+            header {
+                height: 8vh; /* Reduz ainda mais a altura do header */
+                padding: 0 5px; /* Reduz o padding lateral */
+            }
+    
+            header .logo {
+                width: 15vw; /* Aumenta a largura da logo */
+                height: 3.5vh;
+            }
+    
+            header nav {
+                width: 55vw; /* Aumenta a largura do nav */
+            }
+
+            header nav a{
+                font-size: 10px; /* Aumenta a largura do nav */
+            }
+
+            header nav a:hover {
+                font-size: 12px; /* Reduz um pouco */
+            }
+
+            footer{
+                height: 8vh;
+
+            }
+
+            footer .seccao_logos{
+                width: 25vw;
+                gap: 1.5px;
+    
+             }
+
+             footer .seccao_logos p {
+                font-size: 6px;
+        
+             }
+
+             footer .seccao_logos img {
+                width: 3vw;
+                height: 2vh;
+            }
+        
+            footer .direitos_autorais {
+                font-size: 6px;
+            }
+        
+            footer .logo_ford img {
+                width: 7vw;
+                height: 2vh;
+            }
+        }
+
+
+
+    

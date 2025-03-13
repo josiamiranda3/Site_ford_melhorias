@@ -1,0 +1,90 @@
+
+/* Estilo da tabela */
+
+table {
+    width: 25vw; /* Largura total */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    margin-top: 3px; /* Espaçamento acima da tabela */
+    display: none; /* Esconde a tabela inicialmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que as bordas arredondadas funcionem */
+    height: 10vh;
+    overflow-x: auto;  /* para efetuar a questão do scroll */
+    overflow-y: auto;  /* para efetuar a questão do scroll */
+
+}
+
+/* Estilo do cabeçalho da tabela */
+table thead {
+    background-color: #346698; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+}
+
+table th {
+    padding: 5px; /* Espaçamento interno das células do cabeçalho */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo das células da tabela */
+table tbody td {
+    padding: 7px; /* Espaçamento interno das células */
+    border-top: 1px solid #ddd; /* Borda superior nas células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    background-color: white; /* Cor de fundo preta */
+    color: black; /* Cor do texto branca para contraste */
+}
+
+/* Estilo das linhas da tabela */
+table tbody tr:hover {
+    background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo do parágrafo abaixo da tabela */
+p {
+    margin-top: 10px; /* Espaçamento acima do parágrafo */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+
+
+/* Responsividade para tabelas */
+@media (max-width: 768px) {
+    table {
+        width: 80vw; /* Aumenta a largura da tabela para telas menores */
+    }
+
+    table th,
+    table td {
+        padding: 8px; /* Reduz o padding para telas menores */
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%; /* Ocupa 100% da largura em telas muito pequenas */
+    }
+
+    table th,
+    table td {
+        padding: 6px; /* Reduz ainda mais o padding */
+        font-size: 12px; /* Reduz o tamanho da fonte */
+    }
+}
+
+@media (max-width: 350px) {
+    table {
+        width: 100%; /* Ocupa 100% da largura em telas muito pequenas */
+    }
+
+    table th,
+    table td {
+        padding: 5px; /* Reduz ainda mais o padding */
+        font-size: 11px; /* Reduz o tamanho da fonte */
+    }
+}

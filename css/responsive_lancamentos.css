@@ -1,0 +1,445 @@
+
+/* Responsividade Lançamentos */
+
+@media (max-width: 1160px) {
+
+    footer .seccao_logos{
+        width: 23vw;
+        gap: 1.5px;
+
+     }
+
+     footer .seccao_logos img{
+
+        width: 3vw; 
+        height: 5vh; 
+
+     }
+
+     footer .logo_ford img {
+        width: 6vw; /* Aumenta o tamanho da logo da Ford */
+        height: 5vh;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 1063px) {
+
+    header nav a:hover {
+        font-size: 19px; /* Reduz um pouco */
+    }
+
+
+    .comparacao_carros {
+        height: auto; /* Altura automática para acomodar os itens em coluna */
+        /* flex-direction: column;  */
+        gap: 10px; /* Reduz o espaçamento entre os artigos */
+        padding: 10px 0; /* Adiciona um pequeno padding vertical */
+    }
+
+    .comparacao_carros article {
+        width: 80%; /* Define uma largura fixa para os artigos */
+        margin: 0 auto; /* Centraliza os artigos horizontalmente */
+    }
+
+    .comparacao_carros article p {
+        font-size: 14px; /* Reduz o tamanho da fonte dos parágrafos */
+    }
+
+    button {
+        width: 25vw; /* Aumenta a largura do botão */
+        font-size: 16px; /* Reduz o tamanho da fonte do botão */
+    }
+
+    footer .seccao_logos{
+        width: 23vw;
+        gap: 1.5px;
+
+     }
+
+     footer .seccao_logos img{
+
+        width: 4vw; 
+        height: 5vh; 
+
+     }
+
+     footer .direitos_autorais{
+        font-size: 12px;
+     }
+
+     footer .seccao_logos img{
+
+        width: 3vw; 
+        height: 5vh; 
+
+     }
+
+}
+
+@media (max-width: 990px){
+
+    header nav a:hover {
+        font-size: 18px; /* Reduz um pouco */
+    }
+
+    .comparacao_carros {
+        height: auto; /* Altura automática para acomodar os itens em coluna */
+        /* flex-direction: column;  */
+        gap: 10px; /* Reduz o espaçamento entre os artigos */
+        padding: 10px 0; /* Adiciona um pequeno padding vertical */
+    }
+
+    .comparacao_carros article {
+        width: 80%; /* Define uma largura fixa para os artigos */
+        margin: 0 auto; /* Centraliza os artigos horizontalmente */
+    }
+
+    article img {
+        max-width: 30vw; /* Reduz a imagem em telas menores */
+    }
+
+    .comparacao_carros article p {
+        font-size: 14px; /* Reduz o tamanho da fonte dos parágrafos */
+    }
+
+    footer .seccao_logos{
+        width: 20vw;
+        gap: 1.5px;
+
+     }
+
+    footer .seccao_logos p {
+        font-size: 12px;
+
+     }
+
+
+     footer .seccao_logos img{
+
+        width: 3vw; 
+        height: 5vh; 
+
+     }
+
+
+}
+
+@media (max-width: 920px){
+
+    header nav {
+        width: 30vw; /* Aumenta a largura do nav */
+    }
+
+    footer .logo_ford img {
+        width: 5vw; /* Aumenta o tamanho da logo da Ford */
+        height: 3.5vh;
+    }
+
+}
+
+
+/* Responsividade Combinada (Tablets e Smartphones) */
+@media (max-width: 768px) {
+    header {
+        height: 10vh; /* Reduz a altura do header */
+        padding: 0 10px; /* Reduz o padding lateral */
+    }
+
+    header .logo {
+        width: 15vw; /* Aumenta a largura da logo */
+    }
+
+    header nav {
+        width: 35vw; /* Aumenta a largura do nav */
+    }
+
+    header nav ul li {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+
+    header nav a:hover {
+        font-size: 17px; /* Reduz um pouco */
+    }
+
+    .video_ford {
+        height: 60vh; /* Reduz a altura da seção do vídeo */
+    }
+
+    .comparacao_carros {
+        height: auto; /* Altura automática para acomodar os itens em coluna */
+        flex-direction: column; /* Transforma o layout em coluna */
+        gap: 10px; /* Reduz o espaçamento entre os artigos */
+        padding: 10px 0; /* Adiciona um pequeno padding vertical */
+        /* border: solid 2px rgb(25, 157, 78); */
+    }
+
+    .comparacao_carros article {
+        width: 50%; /* Define uma largura fixa para os artigos */
+        margin: 0 auto; /* Centraliza os artigos horizontalmente */
+        /* justify-content: center;
+        align-items: center; */
+        text-align: center;
+    }
+
+    .comparacao_carros article p {
+        font-size: 14px; /* Reduz o tamanho da fonte dos parágrafos */
+    }
+
+    button {
+        width: 25vw; /* Aumenta a largura do botão */
+        font-size: 16px; /* Reduz o tamanho da fonte do botão */
+    }
+
+    footer {
+        height: 8vh; /* Reduz a altura do footer */
+    }
+
+    footer .seccao_logos p {
+        font-size: 10px;
+
+     }
+
+    footer .seccao_logos{
+        width: 25vw;
+        gap: 1.5px;
+
+     }
+
+    footer .seccao_logos img {
+        width: 4vw; /* Aumenta o tamanho dos ícones */
+        height: 4vh;
+    }
+
+    footer .direitos_autorais{
+        font-size: 11px;
+     }
+     /* nova propriedade adicionada */
+
+
+    footer .logo_ford img {
+        width: 6vw; /* Aumenta o tamanho da logo da Ford */
+    }
+
+    table {
+        width: 50vw; /* Aumenta a largura da tabela */
+    }
+
+
+    @media (max-width: 550px) {
+       
+        header nav {
+            width: 50vw; /* Aumenta a largura do nav */
+        }
+
+        header nav a:hover {
+            font-size: 16px; /* Reduz um pouco */
+        }
+
+        footer .seccao_logos{
+            width: 25vw;
+            gap: 1.5px;
+    
+         }
+
+         footer .seccao_logos p {
+            font-size: 8px;
+    
+         }
+    
+        footer .seccao_logos img {
+            width: 4vw; /* Aumenta o tamanho dos ícones */
+            height: 3vh;
+        }
+
+        footer .direitos_autorais{
+            font-size: 10px;
+         }
+         /* nova propriedade adicionada */
+
+        footer .logo_ford img {
+            width: 8vw; /* Aumenta o tamanho da logo da Ford */
+            height: 3vh;
+        }
+
+        button {
+            width: 35vw; /* Aumenta a largura do botão */
+            font-size: 16px; /* Reduz o tamanho da fonte do botão */
+        }
+    
+    }
+
+
+
+    /* Ajustes adicionais para smartphones (max-width: 480px) */
+    @media (max-width: 480px) {
+        header {
+            height: 8vh; /* Reduz ainda mais a altura do header */
+            padding: 0 5px; /* Reduz o padding lateral */
+        }
+
+        header .logo {
+            width: 20vw; /* Aumenta a largura da logo */
+        }
+
+        header nav {
+            width: 45vw; /* Aumenta a largura do nav */
+        }
+
+        header nav ul li {
+            font-size: 12px; /* Reduz o tamanho da fonte */
+        }
+
+        header nav a:hover {
+            font-size: 15px; /* Reduz um pouco */
+        }
+
+        .video_ford {
+            height: 50vh; /* Reduz ainda mais a altura da seção do vídeo */
+        }
+
+        .comparacao_carros {
+            gap: 5px; /* Reduz ainda mais o espaçamento entre os artigos */
+        }
+
+        .comparacao_carros article {
+            width: 90%; /* Aumenta a largura dos artigos para telas menores */
+        }
+
+        .comparacao_carros article p {
+            font-size: 12px; /* Reduz ainda mais o tamanho da fonte dos parágrafos */
+        }
+
+        button {
+            width: 35vw; /* Aumenta ainda mais a largura do botão */
+            font-size: 14px; /* Reduz ainda mais o tamanho da fonte do botão */
+        }
+
+        footer {
+            height: 6vh; /* Reduz ainda mais a altura do footer */
+        }
+
+        footer .seccao_logos{
+            width: 32vw;
+            gap: 1.5px;
+    
+         }
+    
+        footer .seccao_logos img {
+            width: 4vw; /* Aumenta o tamanho dos ícones */
+            height: 3vh;
+        }
+
+        footer .direitos_autorais{
+            font-size: 7px;
+         }
+         /* nova propriedade adicionada */
+
+        footer .logo_ford img {
+            width: 7vw; /* Aumenta ainda mais o tamanho da logo da Ford */
+            height: 3vh;
+        }
+
+        table {
+            width: 70vw; /* Aumenta ainda mais a largura da tabela */
+        }
+    }
+}
+
+@media (max-width: 390px) {
+
+    footer .seccao_logos{
+        width: 27vw;
+        gap: 1.5px;
+
+     }
+
+     footer .seccao_logos p {
+        font-size: 7px;
+
+     }
+
+    footer .seccao_logos img {
+        width: 3vw; /* Aumenta o tamanho dos ícones */
+        height: 2vh;
+    }
+
+    footer .direitos_autorais{
+        font-size: 7px;
+     }
+     /* nova propriedade adicionada */
+
+    footer .logo_ford img {
+        width: 7vw; /* Aumenta ainda mais o tamanho da logo da Ford */
+        height: 2vh;
+    }
+
+}
+
+
+/* ate 350 */
+
+@media (max-width: 350px) {
+
+
+    header {
+        height: 8vh; /* Reduz ainda mais a altura do header */
+        padding: 0 5px; /* Reduz o padding lateral */
+        text-decoration: none;
+    }
+
+    header .logo {
+        width: 15vw; /* Aumenta a largura da logo */
+    }
+
+    header nav {
+        width: 50vw; /* Aumenta a largura do nav */
+    }
+    header nav a{
+        font-size: 10px; /* Aumenta a largura do nav */
+    }
+
+    header nav a:hover {
+        font-size: 12px; /* Reduz um pouco */
+    }
+
+    footer .seccao_logos{
+        width: 27vw;
+        gap: 1.5px;
+
+     }
+
+     footer .seccao_logos p {
+        font-size: 5px;
+
+     }
+
+    footer .seccao_logos img {
+        width: 4.5vw; /* Aumenta o tamanho dos ícones */
+        height: 2vh;
+    }
+
+    footer .direitos_autorais{
+        font-size: 5px;
+     }
+     /* nova propriedade adicionada */
+
+     footer .seccao_logos img {
+        width: 3vw;
+        height: 2vh;
+    }
+
+    footer .direitos_autorais {
+        font-size: 6px;
+    }
+
+    footer .logo_ford img {
+        width: 7vw;
+        height: 2vh;
+    }
+}
+

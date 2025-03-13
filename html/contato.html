@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_contato.css">
+    <link rel="stylesheet" href="/css/responsive_contato.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header>
+
+        <img class="logo" src="/img/logo-ford-256.png" alt="">
+ 
+        <nav>
+             
+         <ul>
+ 
+             <li><a href="/index.html">Home</a></li>
+             <li><a href="/html/lancamentos.html">Lançamentos</a></li>
+             <li><a href="/html/contato.html">Contato</a></li>
+ 
+         </ul>
+ 
+        </nav>
+ 
+     </header>
+
+     <main>
+        <section class="container_formulario_imagem">
+            <!-- Contêiner da Imagem -->
+            <div class="imagem">
+                <img src="/img/xls 2.2 diesel.jpg" alt="Imagem de exemplo">
+            </div>
+        
+            <!-- Contêiner do Formulário -->
+<div class="formulario_contato">
+    <h2>Entre em Contato</h2>
+    <form action="/index.html" method="get">
+        <!-- Campo Nome -->
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <!-- Campo E-mail -->
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <!-- Campo CPF -->
+        <div class="campo">
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+        </div>
+
+        <!-- Campo Sobrenome -->
+        <div class="campo">
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+        </div>
+
+        <!-- Campo Tipo de Contato -->
+        <div class="campo">
+            <label for="tipo_contato">Tipo de Contato:</label>
+            <select id="tipo_contato" name="tipo_contato" placeholder="Como Deseja ser chamado" required>
+                <option value="">Selecione...</option>
+                <option value="elogio">Elogio</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="solicitacao">Solicitação</option>
+            </select>
+        </div>
+
+        <!-- Campo Mensagem -->
+        <div class="campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        </div>
+
+        <!-- Botão Enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+            </div>
+        </section>
+     </main>
+
+     
+     <footer>
+        <section class="seccao_logos">
+            <p>Redes Sociais</p>
+            <!-- <img src="./img/facebook-50.png" alt="Facebook">
+            <img src="./img/youtube-squared-50.png" alt="YouTube">
+            <img src="./img/instagram-logo-50.png" alt="Instagram"> -->
+            <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR" target="_blank">
+                <img src="/img/facebook-50.png" alt="Facebook">
+            </a>           
+            <a href="https://www.youtube.com/fordbrasil" target="_blank">
+                <img src="/img/youtube-squared-50.png" alt="YouTube">
+            </a>          
+            <a href="https://www.instagram.com/fordbrasil/" target="_blank">
+                <img src="/img/instagram-logo-50.png" alt="Instagram">
+            </a>
+        </section>
+
+        <section class="direitos_autorais">
+            &copy;2025 Ford Motor Company- Todos os direitos reservados
+        </section>
+    
+        <section class="logo_ford">
+            <img src="/img/ford-96.png" alt="Ford">
+        </section>
+    </footer>
+
+
+</body>
+</html>
