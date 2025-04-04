@@ -172,6 +172,10 @@
                 font-size: 15px; /* Reduz um pouco */
             }
 
+            main p{
+                font-size: 14px;
+            }
+
             footer .seccao_logos{
                 width: 25vw;
                 gap: 1.5px;
@@ -191,6 +195,10 @@
         }
 
         @media (max-width: 550px) {
+
+            main p{
+                font-size: 13px;
+            }
 
             footer .seccao_logos img {
                 width: 3vw;
@@ -293,6 +301,10 @@
 
             header nav a:hover {
                 font-size: 12px; /* Reduz um pouco */
+            }
+
+            main p{
+                font-size: 10px;
             }
 
             footer{
